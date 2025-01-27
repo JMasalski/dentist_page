@@ -1,0 +1,405 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7021,
+      "max": [
+        2.6145925521850586,
+        24.330224990844727,
+        2.6656312942504883
+      ],
+      "min": [
+        -2.6145451068878174,
+        -13.534854888916016,
+        -0.7407829761505127
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 84252,
+      "componentType": 5126,
+      "count": 7021,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 7021,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.01000000536441803
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 26382,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 168504,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        2.3856005668640137,
+        24.095901489257813,
+        2.4297099113464355
+      ],
+      "min": [
+        -2.3855533599853516,
+        19.663724899291992,
+        0.6634055376052856
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 169656,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        -1.3682644350865303e-07,
+        -0.37020301818847656,
+        0.9289509654045105
+      ],
+      "min": [
+        -1.3682644350865303e-07,
+        -0.37020301818847656,
+        0.9289509654045105
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 56168,
+      "componentType": 5126,
+      "count": 96,
+      "max": [
+        0.3595364987850189,
+        0.359536349773407
+      ],
+      "min": [
+        0.14046359062194824,
+        0.14046329259872437
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 105528,
+      "componentType": 5125,
+      "count": 282,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 170808,
+      "componentType": 5126,
+      "count": 6516,
+      "max": [
+        0.7461844682693481,
+        24.105119705200195,
+        3.253547191619873
+      ],
+      "min": [
+        -0.7461844682693481,
+        -13.534854888916016,
+        -0.7407829761505127
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 249000,
+      "componentType": 5126,
+      "count": 6516,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 56936,
+      "componentType": 5126,
+      "count": 6516,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.01000000536441803
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 106656,
+      "componentType": 5125,
+      "count": 25908,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "wozniakowski.smierdzi (https://sketchfab.com/wozniakowski.smierdzi)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/dentist-tools-05496bd4a33548a68f31cc5cc86be521",
+      "title": "dentist tools"
+    },
+    "generator": "Sketchfab-13.12.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 210288,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 109064,
+      "byteOffset": 210288,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 327192,
+      "byteOffset": 319352,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 646544,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.732478,
+          0.732478,
+          0.732478,
+          1.0
+        ],
+        "roughnessFactor": 0.114679
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Material.002",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        3,
+        6
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "matrix": [
+        0.5278890132904053,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5278890132904053,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5278890132904053,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Cylinder_1"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_4"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_5"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        -0.1193720278561728,
+        0.0,
+        -0.5142150613490651,
+        0.0,
+        0.0,
+        0.5278890132904053,
+        0.0,
+        0.0,
+        0.5142150613490651,
+        0.0,
+        -0.1193720278561728,
+        0.0,
+        3.3548967838287354,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Cylinder.001_2"
+    },
+    {
+      "mesh": 2,
+      "name": "Object_7"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
