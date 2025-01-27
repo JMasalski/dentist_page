@@ -5,6 +5,7 @@ const Nav = ({ toggleNavbar, to, label }) => {
   return (
       <>
           <ScrollLink
+              href={`#${to}`}
               to={to}
               spy={true}
               smooth={true}

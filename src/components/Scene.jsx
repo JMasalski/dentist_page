@@ -7,11 +7,10 @@ Source: https://sketchfab.com/3d-models/dentist-tools-05496bd4a33548a68f31cc5cc8
 Title: dentist tools
 */
 
-import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('public/scene/scene.gltf')
+  const { nodes, materials } = useGLTF('/scene/scene.gltf')
   return (
     <group {...props} dispose={null}>
       <group scale={0.528}>
@@ -23,4 +22,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('public/scene/scene.gltf')
+useGLTF.preload('/scene/scene.gltf')

@@ -1,6 +1,6 @@
 import {Suspense} from 'react'
 import {Environment, OrbitControls} from "@react-three/drei";
-import Scene from "../../public/scene/Scene.jsx";
+import Scene from './Scene.jsx'
 import {Canvas} from "@react-three/fiber";
 
 const Element3D = () => {

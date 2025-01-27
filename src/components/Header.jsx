@@ -3,7 +3,7 @@ import Logo from "./Logo.jsx";
 import CTAButton from "./CTAButton.jsx";
 import { motion, AnimatePresence } from "framer-motion";
 import {useState} from "react";
-import links from "../Constants/Constants.js";
+import {links} from "../Constants/Constants.js";
 const Header = () => {
     const [open, setOpen] = useState(false);
 
