@@ -6,7 +6,7 @@ const AboutMe = () => {
 
         <Element name="aboutme">
             <div className="flex flex-col sm:flex-row w-full h-screen bg-slate-100 ">
-                <div className="basis-3/4 m-28">
+                <div className="basis-3/4 m-10">
                     <h1 className="text-lg md:text-3xl font-bold  ">
                         <span className="text-primary">Tomasz Wiśniewski</span> <br/>stomatolog
                     </h1>
