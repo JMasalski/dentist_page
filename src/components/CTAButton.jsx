@@ -1,9 +1,9 @@
 const CTAButton = () => {
     return (
         <>
-            <button className="btn-circle border-2 border-primary md:btn-primary btn w-25 md:w-40 text-md sm:text-lg text-white ml-1"
+            <button className="btn-circle border-2 border-primary md:btn-primary btn w-25 md:w-40 text-md sm:text-lg  ml-1"
                     onClick={() => document.getElementById('my_modal_2').showModal()}>
-                <p className="hidden md:block">Skontaktuj się</p>
+                <p className="hidden md:block text-white">Skontaktuj się</p>
                 <p className="animate-wiggle md:hidden">📞</p>
             </button>
             <dialog id="my_modal_2" className="modal text-wrap text-center">

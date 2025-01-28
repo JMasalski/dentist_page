@@ -6,8 +6,8 @@ const AboutMe = () => {
     return (
 
         <Element name="aboutme">
-            <div className="flex flex-col sm:flex-row w-full h-screen  ">
-                <div className="basis-3/4 m-10">
+            <div className="flex flex-col sm:flex-row ">
+                <div className="basis-3/4 mx-10 my-5">
                     <h1 className="text-lg md:text-3xl font-bold  ">
                         <span className="text-primary">Tomasz Wiśniewski</span> <br/>stomatolog
                     </h1>
@@ -41,7 +41,6 @@ const AboutMe = () => {
                 </div>
 
                 <div className="hidden lg:block basis-1/4  mr-40 mt-12  z-10">
-
                     <Element3D/>
                 </div>
             </div>
