@@ -1,9 +1,10 @@
 import Nav from "./Nav.jsx";
 import Logo from "./Logo.jsx";
 import CTAButton from "./CTAButton.jsx";
-import { motion, AnimatePresence } from "framer-motion";
+import {motion, AnimatePresence} from "framer-motion";
 import {useState} from "react";
 import {links} from "../Constants/Constants.js";
+
 const Header = () => {
     const [open, setOpen] = useState(false);
 
@@ -12,16 +13,24 @@ const Header = () => {
     };
 
     const menuMob = {
-        initial: { opacity: 0,x: 200 },
-        animate: { opacity: 1, x: 0, transition: { duration: 0.3 } },
-        exit: { opacity: 0, x: 200, transition: { duration: 0.3 } },
+        initial: {opacity: 0, x: 200},
+        animate: {opacity: 1, x: 0, transition: {duration: 0.3}},
+        exit: {opacity: 0, x: 200, transition: {duration: 0.3}},
     };
 
     return (
-        <header className="sticky backdrop-blur-lg md:p-2 top-0 flex-wrap z-20 mx-auto flex w-full items-center justify-between p-4 overflow-hidden">
-            <Logo />
+        <header
+            className="sticky backdrop-blur-lg md:p-2 top-0 flex-wrap z-20 mx-auto flex w-full items-center justify-between p-4 overflow-hidden">
+            <Logo/>
             <div className="flex items-center space-x-2 lg:space-x-12 justify-between">
-                <CTAButton />
+                <CTAButton className={"border-2 border-primary btn-primary text-white w-25 md:w-40"}
+                    text={
+                        <>
+                            <p className="hidden md:block text-white">Umów się</p>
+                            <p className="animate-wiggle md:hidden">📞</p>
+                        </>
+                    }
+                />
                 <nav className="w-1/3 flex justify-end">
                     <div
                         className="hidden md:flex md:items-center space-x-8 lg:space-x-16 md:mr-12 md:justify-between text-nowrap">

@@ -11,7 +11,7 @@ const AboutMe = () => {
                     <h1 className="text-lg md:text-3xl font-bold  ">
                         <span className="text-primary">Tomasz Wiśniewski</span> <br/>stomatolog
                     </h1>
-                    <div className="flex flex-col text-sm md:text-lg ">
+                    <div className="flex flex-col text-sm md:text-xl ">
                         <div className="my-5">
                             <span className="font-bold text-primary">O mnie</span>
                             <p className="text-justify">Jestem absolwentem Uniwersytetu Medycznego w Gdańsku na Wydziale Lekarskim z oddziałem
@@ -40,7 +40,7 @@ const AboutMe = () => {
                     </div>
                 </div>
 
-                <div className="hidden lg:block basis-1/4  mr-40 mt-12  z-10">
+                <div className="hidden lg:block basis-1/4  mr-40  z-10">
                     <Element3D/>
                 </div>
             </div>
