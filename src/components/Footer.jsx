@@ -1,4 +1,4 @@
-import {FacebookIcon, InstagramIcon, Mail, MapPin, Phone, StarIcon} from "lucide-react";
+import {Mail, MapPin, Phone, StarIcon} from "lucide-react";
 import CTAButton from "./CTAButton.jsx";
 import {Element} from "react-scroll";
 

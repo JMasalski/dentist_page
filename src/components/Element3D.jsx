@@ -5,7 +5,7 @@ import {Canvas} from "@react-three/fiber";
 
 const Element3D = () => {
     return (
-        <Canvas camera={{position: [10, 10, 20]}} >
+        <Canvas camera={{position: [25, 5, 20]}} >
             <ambientLight intensity={0.5}/>
             <OrbitControls enableZoom={false} enableRotate={false} autoRotate={true} autoRotateSpeed={2.5}/>
             <Suspense fallback={null}>

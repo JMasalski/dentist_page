@@ -10,7 +10,7 @@ const Oferta = () => {
                     {skills.map(({ specialization, procedures }, index) => (
                         <SpotlightCard
                             key={index}
-                            className="w-full lg:w-[calc(25%-1rem)] custom-spotlight-card text-black bg-white "
+                            className="w-[390px] lg:w-[calc(25%-1rem)] custom-spotlight-card text-black bg-white "
                             spotlightColor="rgba(74, 0, 255, 0.2)"
                         >
                             <h3 className="text-xl font-bold">{specialization}</h3>

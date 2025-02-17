@@ -6,41 +6,25 @@ const AboutMe = () => {
     return (
 
         <Element name="aboutme">
-            <div className="flex flex-col sm:flex-row ">
-                <div className="basis-3/4 mx-10 my-5">
-                    <h1 className="text-lg md:text-3xl font-bold  ">
-                        <span className="text-primary">Tomasz Wiśniewski</span> <br/>stomatolog
-                    </h1>
-                    <div className="flex flex-col text-sm md:text-xl ">
-                        <div className="my-5">
-                            <span className="font-bold text-primary">O mnie</span>
-                            <p className="text-justify">Jestem absolwentem Uniwersytetu Medycznego w Gdańsku na Wydziale Lekarskim z oddziałem
-                                Stomatologicznym. W trakcie studiów byłem aktywnym członkiem Polskiego Towarzystwa
-                                Stomatologicznego oraz Koła Naukowego przy Katedrze Stomatologii Ogólnej. W latach
-                                2015-2016 odbyłem staż w Klinice Stomatologicznej w Elblągu. W 2016 roku rozpocząłem
-                                specjalizację z Chirurgii Stomatologicznej w Centrum Stomatologii w Warszawie, a obecnie
-                                kontynuuję szkolenie specjalizacyjne w Wojewódzkim Szpitalu Zespolonym w Elblągu na
-                                Oddziale Chirurgii Szczękowo-Twarzowej.
-                                Przez kilka lat pracowałem jako wykładowca przedmiotów zawodowych dla przyszłych
-                                Higienistek i Asystentek Stomatologicznych.
-                                Brałem udział w licznych kursach i szkoleniach z zakresu Chirurgii Stomatologicznej,
-                                Stomatologii Zachowawczej oraz Protetyki.
-                                Moje główne obszary specjalizacji to chirurgia stomatologiczna, stomatologia zachowawcza
-                                z endodoncją oraz protetyka.
-                            </p>
-                        </div>
-                        <div>
-                            <span className="font-bold text-primary">Certyfikaty</span>
-                            <ul className="list-disc">
-                                {certificates.map((certificate, index) => {
-                                    return <li key={index}>{certificate}</li>
-                                })}
-                            </ul>
-                        </div>
+            <div className="bg-primary md:bg-gradient-to-r from-primary to-stone-50 text-slate-800 flex justify-between item gap-10">
+                <div  className=" p-5 md:p-10 lg:p-15 flex flex-col gap-10 text-lg md:text-2xl lg:text-4xl w-full md:w-3/5"> 
+                    <div className="flex flex-col gap-5 text-lg md:text-2xl lg:text-4xl items-start">
+                            <h1 className="font-bold">John Doe</h1>
+                            <p className="text-lg md:text-2xl lg:text-3xl font-semibold">Dentist</p>
+                    </div>
+                    <div>
+                        <p className="text-justify">
+                            John Doe, DDS
+                            I am a graduate of the University of London, Faculty of Dentistry. During my studies, I was an active member of the British Dental Association and participated in scientific research at the Department of General Dentistry. In 2017-2018, I completed an internship at a renowned Dental Clinic in Manchester.     
+                            In 2019, I began my specialization in Oral and Maxillofacial Surgery at the Royal Dental Institute in London, and I am currently continuing my training at St. Thomas’ Hospital in the Department of Oral Surgery.    
+                            For several years, I have worked as a lecturer, teaching dental assisting and hygiene programs.    
+                            I have participated in numerous courses and training sessions in oral surgery, restorative dentistry, and prosthodontics, constantly improving my skills to provide the highest level of care.
+                        </p>
                     </div>
                 </div>
 
-                <div className="hidden lg:block basis-1/4  mr-40  z-10">
+
+                <div className="hidden mt-16 md:block w-2/5">
                     <Element3D/>
                 </div>
             </div>

@@ -20,10 +20,10 @@ const Header = () => {
 
     return (
         <header
-            className="sticky backdrop-blur-lg md:p-2 top-0 flex-wrap z-20 mx-auto flex w-full items-center justify-between p-4 overflow-hidden">
+            className="sticky backdrop-blur-lg p-3 md:p-6 lg:p-9 top-0 flex-wrap z-20 mx-auto flex w-full items-center justify-between  overflow-hidden">
             <Logo/>
             <div className="flex items-center space-x-2 lg:space-x-12 justify-between">
-                <CTAButton className={"border-2 border-primary btn-primary text-white w-25 md:w-40"}
+                <CTAButton className={" bg-primary text-white w-25 md:w-40"}
                     text={
                         <>
                             <p className="hidden md:block text-white">Umów się</p>

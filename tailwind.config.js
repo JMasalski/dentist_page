@@ -22,7 +22,7 @@ export default {
         wiggle: 'wiggle 1s ease-in-out infinite',
       },
       colors: {
-        primary: '#4A00FF',
+        primary: '#9d7afc',
         secondary: '#28dcb4',
         white: '#ffffff',
         black: '#000000',
