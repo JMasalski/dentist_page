@@ -1,51 +1,51 @@
 export const links = [
-    {to: "aboutme", label: "O mnie"},
-    {to: "oferta", label: "Oferta"},
-    {to: "gdzie", label: "Gdzie mnie znajdziesz"},
+    {to: "aboutme", label: "About Me"},
+    {to: "services", label: "Services"},
+    {to: "where", label: "Where to Find Me"},
 ];
 
 export const certificates = [
-    "Certyfikat z zakresu Chirurgii Stomatologicznej",
-    "Certyfikat z Endodoncji",
-    "Certyfikat z Periodontologii",
-    "Certyfikat z Protetyki"
+    "Certificate in Dental Surgery",
+    "Certificate in Endodontics",
+    "Certificate in Periodontology",
+    "Certificate in Prosthodontics"
 ];
 
 export const skills = [
     {
-        "specialization": "Chirurgia stomatologiczna",
+        "specialization": "Dental Surgery",
         "procedures": [
-            "Usuwanie zębów zatrzymanych",
-            "Resekcja wierzchołka korzenia",
-            "Hemisekcja zęba",
-            "Podcinanie wędzidełka języka lub wargi"
+            "Removal of impacted teeth",
+            "Apex resection",
+            "Tooth hemisection",
+            "Frenectomy (tongue or lip tie)"
         ]
     },
     {
-        "specialization": "Ortodoncja",
+        "specialization": "Orthodontics",
         "procedures": [
-            "Zakładanie aparatów ortodontycznych",
-            "Kontrola i regulacja aparatów",
-            "Leczenie wad zgryzu",
-            "Retencja po leczeniu ortodontycznym"
+            "Placing orthodontic braces",
+            "Brace control and adjustments",
+            "Treatment of bite disorders",
+            "Retention after orthodontic treatment"
         ]
     },
     {
-        "specialization": "Protetyka stomatologiczna",
+        "specialization": "Prosthetic Dentistry",
         "procedures": [
-            "Wykonywanie koron porcelanowych",
-            "Mosty protetyczne",
-            "Protezy ruchome",
-            "Naprawa protez"
+            "Making porcelain crowns",
+            "Prosthetic bridges",
+            "Removable dentures",
+            "Dentures repair"
         ]
     },
     {
-        "specialization": "Endodoncja",
+        "specialization": "Endodontics",
         "procedures": [
-            "Leczenie kanałowe pod mikroskopem",
-            "Usuwanie złamanych narzędzi z kanałów",
-            "Reendo - powtórne leczenie kanałowe",
-            "Wypełnianie kanałów systemem termicznym"
+            "Root canal treatment under a microscope",
+            "Removing broken instruments from root canals",
+            "Reendo - retreatment of root canals",
+            "Thermal root canal filling"
         ]
     }
 ];
